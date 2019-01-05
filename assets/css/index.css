@@ -1,10 +1,34 @@
 .main{
+  width: 80%;
+  left: 10%;
 }
-.home{
-  position: absolute;
-  width: 400px;
-  height: 100%;
-  left: 50%;
-  margin: -20px 0 -20px -200px; /*top right bottom left*/
-  background-color: aqua;
+
+/*
+Header Section Styles
+*/
+.header{
+  width: 100%;
+}
+.header_title{
+  float: left;
+}
+.header_navigator{
+  float: right;
+}
+
+/*
+Personal Info Section Styles
+*/
+.personal_info{
+  width: 50%;
+  margin: auto;
+}
+personal_info_name{
+  width: 100%;
+}
+.personal_info_profession{
+  width: 100%;
+}
+.personal_info_links{
+  width: 100%;
 }
