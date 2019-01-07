@@ -1,19 +1,81 @@
-.main{
-  width: 80%;
-  left: 10%;
+body{
+  margin: 0px;
 }
 
 /*
 Header Section Styles
 */
-.header{
+.navigation_container{
   width: 100%;
+  height: 40px;
 }
-.header_title{
+.navigation_bar_text{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.navigation_text{
+  height: 100%;
+  font-size: 22px;
+  width: calc(100%/4);
+  line-height: 40px;
   float: left;
+  cursor: pointer;
 }
-.header_navigator{
+.navigation_text_home{
+}
+.navigation_text_projects{
+}
+.navigation_text_resume{
+}
+.navigation_text_plans{
+}
+.navigation_bar_image{
+  width: 50%;
+  margin: auto;
+}
+.navigation_image{
+  width: 36px;
+  height: 36px;
   float: right;
+  cursor: pointer;
+  position: relative;
+  z-index: 9999999;
+}
+.navigation_image_options{
+  /*width: 100%;*/
+  /*background-color: black;*/
+  color: white;
+  text-align: right;
+  position: relative;
+}
+.navigation_image_option{
+  width: 100%;
+  /*background-color: white;*/
+  cursor: pointer;
+  font-size: 22px;
+  display: inline-block;
+}
+.navigation_image_option_home{
+}
+.navigation_image_option_projects{
+}
+.navigation_image_option_resume{
+}
+.navigation_image_option_plans{
+}
+
+
+/*
+Background Image Styles
+*/
+.background_image{
+  background: url(../img/pi500.jpeg) no-repeat scroll center top transparent;
+  height: 500;
+}
+
+.main{
 }
 
 /*
@@ -21,14 +83,50 @@ Personal Info Section Styles
 */
 .personal_info{
   width: 50%;
+  height: 460px;
   margin: auto;
+  text-align: center;
+  /*overflow: auto;*/
+  background:rgba(0,0,0,0.4);
 }
-personal_info_name{
+.personal_info_text{
   width: 100%;
+  display: inline-block;
+  color: white;
+  font-family: verdana;
+}
+.personal_info_name{
+  font-size: 28px;
+  font-weight: bold;
 }
 .personal_info_profession{
-  width: 100%;
+  font-size: 20px;
+}
+.personal_info_quote{
+  font-size: 16px;
+  margin-top: 10px;
+}
+.personal_info_portrait{
+  margin-top: 10px;
 }
 .personal_info_links{
   width: 100%;
+  display: block;
+}
+.personal_info_links_image{
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.personal_info_links_github{
+    
+}
+.personal_info_links_linkedin{
+    
+}
+
+
+h1{
+    text-align: center;
 }
