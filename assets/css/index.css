@@ -1,8 +1,12 @@
+html{
+    height: 100%;
+}
 body{
+    height: 100%;
     margin-left: 20px;
     margin-right: 20px;
     background: url(../img/snowpeaks.jpg) no-repeat center transparent;
-    /* background-size: cover; */
+    background-size: cover;
 }
 a{
     color: white;
