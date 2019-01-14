@@ -1,70 +1,41 @@
 window.onload = function(){
-    enforceNavigationMethod();
-    window.onresize = enforceNavigationMethod;
+    var menuIconBar = document.getElementById("menu_icon_bar");
+    var mainInfo = document.getElementById("main_info");
     
-    var navigationTextItems = document.getElementsByClassName("navigation_text");
-    for (var i = 0; i < navigationTextItems.length; i++){
-        navigationTextItems[i].addEventListener("mouseover", function(){
-           this.style.backgroundColor = "white";
-           this.style.color = "black";
-        });
-        navigationTextItems[i].addEventListener("mouseout", function(){
-            this.style.backgroundColor = "";
-            this.style.color = "white";
+    var menuIconGeneric = document.getElementsByClassName("menu_icon_generic");
+    var menuIconAbout = document.getElementById("menu_icon_about");
+    var menuIconProjects = document.getElementById("menu_icon_projects");
+    var menuIconPlans = document.getElementById("menu_icon_plans");
+    var menuIconContact = document.getElementById("menu_icon_contact");
+    for (var i = 0; i < menuIconGeneric.length; i++){
+        menuIconGeneric[i].addEventListener("click", function(){
+            menuIconBar.style.display = "none";
+            mainInfo.style.display = "none";
+            // alert(this.children[0].innerHTML);
+            switch(this.children[0].innerHTML){
+                case "ABOUT":
+                    document.getElementById("about_info").style.display = "block";
+                    break;
+                case "PROJECTS":
+                    document.getElementById("projects_info").style.display = "block";
+                    break;
+                case "PLANS":
+                    document.getElementById("plans_info").style.display = "block";
+                    break;
+                case "CONTACT":
+                    document.getElementById("contact_info").style.display = "block";
+                    break;
+            }
         });
     }
     
-    var navigationImage = document.getElementById("navigation_image");
-    var navigationImageOptions = document.getElementById("navigation_image_options");
-    navigationImageOptions.style.display = "none";
-    navigationImage.addEventListener("click", function(){
-        if (navigationImageOptions.style.display === "none"){
-            navigationImageOptions.style.display = "block";
-            document.getElementById("main").style.display = "none";
-            // document.getElementById("personal_info").style.background = "rgba(0,0,0,0.0)";
-        }
-        else if (navigationImageOptions.style.display === "block"){
-            navigationImageOptions.style.display = "none";
-            document.getElementById("main").style.display = "block";
-            // document.getElementById("personal_info").style.background = "rgba(0,0,0,0.0)";
-        }
-    });
     
-    var navigationImageOptionItems = document.getElementsByClassName("navigation_image_option");
-    for (var i = 0; i < navigationImageOptionItems.length; i++){
-        navigationImageOptionItems[i].addEventListener("click", function(){
-            var event = new Event("click");
-            navigationImage.dispatchEvent(event);
+    var infoHeaderClose = document.getElementsByClassName("info_header_close");
+    for (var i = 0; i < infoHeaderClose.length; i++){
+        infoHeaderClose[i].addEventListener("click", function(){
+           this.parentNode.parentNode.style.display = "none";
+           menuIconBar.style.display = "block";
+           mainInfo.style.display = "block";
         });
-        navigationImageOptionItems[i].addEventListener("mouseover", function(){
-            this.style.backgroundColor = "white";
-            this.style.color = "black";
-        });
-        navigationImageOptionItems[i].addEventListener("mouseout", function(){
-            this.style.backgroundColor = "";
-            this.style.color = "white";
-        });
-    }
-    
-    var personalInfoLinksGithub = document.getElementById("personal_info_links_github");
-    personalInfoLinksGithub.addEventListener("click", function(){
-        var win = window.open("https://github.com/mariodelreal/");
-        win.focus();
-    });
-    var personalInfoLinksLinkedin = document.getElementById("personal_info_links_linkedin");
-    personalInfoLinksLinkedin.addEventListener("click", function(){
-        var win = window.open("https://www.linkedin.com/in/madelreal/");
-        win.focus();
-    });
-}
-
-function enforceNavigationMethod(){
-    if (window.innerWidth < 640){
-        document.getElementById("navigation_bar_text").style.display = "none";
-        document.getElementById("navigation_bar_image").style.display = "block";
-    }
-    else{
-        document.getElementById("navigation_bar_text").style.display = "block";
-        document.getElementById("navigation_bar_image").style.display = "none";
     }
 }

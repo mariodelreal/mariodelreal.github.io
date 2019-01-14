@@ -1,1 +1,0 @@
-when bringing the window to a size that shows the menu icon, the h1 tag elements are brought up high

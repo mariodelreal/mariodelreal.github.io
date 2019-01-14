@@ -1,47 +1,98 @@
 <html>
-  <head>
-    <script type="text/javascript" src="./assets/js/index.js"></script>
-    <link rel="stylesheet" type="text/css" href="./assets/css/index.css"/>
-  </head>
-  <body>
-    <div id="background_image" class="background_image">
-    <div id="navigation_container" class="navigation_container">
-      <div id="navigation_bar_text" class="navigation_bar_text">
-        <span id="navigation_text_home" class="navigation_text_home navigation_text">Home</span>
-        <span id="navigation_text_projects" class="navigation_text_projects navigation_text">Projects</span>
-        <span id="navigation_text_resume" class="navigation_text_resume navigation_text">Resume</span>
-        <span id="navigation_text_plans" class="navigation_text_plans navigation_text">Plans</span>
-      </div>
-      <div id="navigation_bar_image" class="navigation_bar_image">
-        <img id="navigation_image" class="navigation_image" src="./assets/img/white-menu-icon.png">
-        <div id="navigation_image_options" class="navigation_image_options">
-          <span id="navigation_image_option_home" class="navigation_image_option_home navigation_image_option">Home</span>
-          <span id="navigation_image_option_projects" class="navigation_image_option_projects navigation_image_option">Projects</span>
-          <span id="navigation_image_option_plans" class="navigation_image_option_plans navigation_image_option">Plans</span>
-          <span id="navigation_image_option_resume" class="navigation_image_option_resume navigation_image_option">Resume</span>
+    <head>
+        <script type="text/javascript" src="./assets/js/index.js"></script>
+        <script type="text/javascript" src="./assets/js/projects.js"></script>
+        <link rel="stylesheet" type="text/css" href="./assets/css/index.css"/>
+        <link href='https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    
+    </head>
+    <body>
+        <div id="background_image" class="background_image"></div>
+      
+      
+      
+        <div id="menu_icon_bar" class="menu_icon_bar fade-in-half-time">
+            <div id="menu_icon_about" class="menu_icon_about menu_icon_generic">
+                <span id="menu_icon_about_text" class="menu_icon_about_text menu_icon_generic_text">ABOUT</span>
+            </div>
+            <div id="menu_icon_projects" class="menu_icon_projects menu_icon_generic">
+                <span id="menu_icon_projects_text" class="menu_icon_projects_text menu_icon_generic_text">PROJECTS</span>
+            </div>
+            <div id="menu_icon_plans" class="menu_icon_plans menu_icon_generic">
+                <span id="menu_icon_plans_text" class="menu_icon_plans_text menu_icon_generic_text">PLANS</span>
+            </div>
+            <div id="menu_icon_contact" class="menu_icon_contact menu_icon_generic">
+                <span id="menu_icon_contact_text" class="menu_icon_contact_text menu_icon_generic_text">CONTACT</span>
+            </div>
         </div>
-      </div>
-    </div>
-    <div id="main" class="main">
-      <div id="personal_info" class="personal_info">
-        <span id="personal_info_name" class="personal_info_text personal_info_name">Mario Del Real</span>
-        <span id="personal_info_profession" class="personal_info_text personal_info_profession">Software Developer and Web Designer</span>
-        <img id="personal_info_portrait" class="personal_info_portrait" src="./assets/img/portrait.jpg">
-        <span id="personal_info_quote" class="personal_info_text personal_info_quote">Lorem Ipsum is the dummy text of the printing world</span>
-        <div id="personal_info_links" class="personal_info_links">
-          <img id="personal_info_links_github" class="personal_info_links_github personal_info_links_image" src="./assets/img/githubwhite.png">
-          <img id="personal_info_links_linkedin" class="personal_info_links_linkedin personal_info_links_image" src="./assets/img/linkedinwhite.png">
+        
+        
+        
+        <div id="main_info" class="main_info fade-in-full-time">
+            <div id="main_info_container" class="main_info_container">
+                <div id="main_info_header" class="main_info_header">
+                    <span id="main_info_header_text" class="main_info_header_text">MARIO DEL REAL</span>
+                </div>
+                <div id="main_info_content" class="main_info_content">
+                    <span id="main_info_content_text" class="main_info_content_text">CURRENTLY A STUDENT AT CARTHAGE COLLEGE MAJORING IN COMPUTER SCIENCE AND MINORING IN MATH. INTERESTED IN SOFTWARE ENGINEERING, WEB DEVELOPMENT, EMBEDDED SYSTEMS PROGRAMMING, AND TINKERING WITH HARDWARE. RESUME CAN BE FOUND <a href="./assets/img/snowpeaks.jpg">HERE</a>.</span>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div id="projects" class="projects">
-      <h1 id="project_header" class="project_header">Projects</h1>
-    </div>
-    <div id="Plans" class="Plans">
-      <h1 id="plans_header" class="plans_header">Plans</h1>
-    </div>
-    <div id="Resume" class="Resume">
-      <h1 id="resume_header" class="resume_header">Resume</h1>
-    </div>
-  </body>
+        
+        
+        
+        <div id="about_info" class="about_info generic_info fade-in-half-time">
+            <div id="about_info_header" class="about_info_header info_header">
+                <span id="about_info_header_close" class="about_info_header_close info_header_close">&#x2715</span>
+            </div>
+            <div id="about_info_title" class="about_info_title info_title">
+                <span id="about_info_title_text" class="about_info_title_text info_title_text">ABOUT</span>
+            </div>
+            <div id="about_info_body" class="about_info_body info_body">
+                <span id="about_info_body_text" class="about_info_body_text info_body_text"></span>
+            </div>
+        </div>
+        
+        
+        
+        <div id="projects_info" class="projects_info generic_info fade-in-half-time">
+            <div id="projects_info_header" class="projects_info_header info_header">
+                <span id="projects_info_header_close" class="projects_info_header_close info_header_close">&#x2715</span>
+            </div>
+            <div id="projects_info_title" class="projects_info_title info_title">
+                <span id="projects_info_title_text" class="projects_info_title_text info_title_text">PROJECTS</span>
+            </div>
+            <div id="projects_info_body" class="projects_info_body info_body">
+                <span id="projects_info_body_text" class="projects_info_body_text info_body_text"></span>
+            </div>
+        </div>
+        
+        
+        
+        <div id="plans_info" class="plans_info generic_info fade-in-half-time">
+            <div id="plans_info_header" class="plans_info_header info_header">
+                <span id="plans_info_header_close" class="plans_info_header_close info_header_close">&#x2715</span>
+            </div>
+            <div id="plans_info_title" class="plans_info_title info_title">
+                <span id="plans_info_title_text" class="plans_info_title_text info_title_text">PLANS</span>
+            </div>
+            <div id="plans_info_body" class="plans_info_body info_body">
+                <span id="plans_info_body_text" class="plans_info_body_text info_body_text"></span>
+            </div>
+        </div>
+        
+        
+        
+        <div id="contact_info" class="contact_info generic_info fade-in-half-time">
+            <div id="contact_info_header" class="contact_info_header info_header">
+                <span id="contact_info_header_close" class="contact_info_header_close info_header_close">&#x2715</span>
+            </div>
+            <div id="contact_info_title" class="contact_info_title info_title">
+                <span id="contact_info_title_text" class="contact_info_title_text info_title_text">CONTACT</span>
+            </div>
+            <div id="contact_info_body" class="contact_info_body info_body">
+                <span id="contact_info_body_text" class="contact_info_body_text info_body_text"></span>
+            </div>
+        </div>
+    </body>
 </html>
