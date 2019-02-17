@@ -21,6 +21,7 @@ body{
     height: 40px;
     font-size: 15px;
     font-weight: 100;
+    cursor: pointer;
 }
 .navbar-item-1{
     border-left: solid white 1px;

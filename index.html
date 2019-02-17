@@ -2,27 +2,111 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-         <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
         <!-- <script type="text/javascript" src="./assets/js/index.js"></script> -->
         <!-- <script type="text/javascript" src="./assets/js/projects.js"></script> -->
-         <link rel="stylesheet" type="text/css" href="./assets/css/index.css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./assets/css/index.css"/>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     
     </head>
     <body>
         <div class="container">
             <div class="row justify-content-center navbar">
-                <div class="col-3 navbar-item navbar-item-1">ABOUT</div>
-                <div class="col-3 navbar-item navbar-item-2">PROJECTS</div>
-                <div class="col-3 navbar-item navbar-item-3">RESUME</div>
-                <div class="col-3 navbar-item navbar-item-4">PLANS</div>
+                <div class="col-3 navbar-item navbar-item-1" data-toggle="modal" data-target="#about-modal">ABOUT</div>
+                <div class="col-3 navbar-item navbar-item-2" data-toggle="modal" data-target="#projects-modal">PROJECTS</div>
+                <div class="col-3 navbar-item navbar-item-3" data-toggle="modal" data-target="#resume-modal">RESUME</div>
+                <div class="col-3 navbar-item navbar-item-4" data-toggle="modal" data-target="#plans-modal">PLANS</div>
             </div>
             <div class="row justify-content-center name">
                 <div class="col-12 name-text">MARIO DEL REAL</div>
             </div>
             <div class="row justify-content-center info">
                 <span class="col-12 info-text">CURRENTLY A STUDENT AT CARTHAGE COLLEGE MAJORING IN COMPUTER SCIENCE AND MINORING IN MATH. INTERESTED IN SOFTWARE ENGINEERING, WEB DEVELOPMENT, EMBEDDED SYSTEMS PROGRAMMING, AND TINKERING WITH HARDWARE. RESUME CAN BE FOUND <a class="resume-link" href="/assets/files/Mario-A-Del-Real-Resume.pdf">HERE</a></span>
+            </div>
+        </div>
+
+        <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="about-modal-label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="about-modal-label">ABOUT</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        asdf asdfadfa adfadf hf
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="projects-modal" tabindex="-1" role="dialog" aria-labelledby="projects-modal-label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projects-modal-label">PROJECTS</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        asdf asdfadfa adfadf hf
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="resume-modal" tabindex="-1" role="dialog" aria-labelledby="resume-modal-label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="resume-modal-label">RESUME</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        asdf asdfadfa adfadf hf
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="plans-modal" tabindex="-1" role="dialog" aria-labelledby="plans-modal-label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plans-modal-label">PLANS</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        asdf asdfadfa adfadf hf
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
