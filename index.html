@@ -1,99 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <!-- <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" /> -->
-        <script type="text/javascript" src="./assets/js/index.js"></script>
-        <script type="text/javascript" src="./assets/js/projects.js"></script>
-        <link rel="stylesheet" type="text/css" href="./assets/css/index.css"/>
-        <link href='https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8">
+         <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+        <!-- <script type="text/javascript" src="./assets/js/index.js"></script> -->
+        <!-- <script type="text/javascript" src="./assets/js/projects.js"></script> -->
+         <link rel="stylesheet" type="text/css" href="./assets/css/index.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     
     </head>
     <body>
-        <div id="background_image" class="background_image"></div>
-      
-      
-      
-        <div id="menu_icon_bar" class="menu_icon_bar fade-in-half-time">
-            <div id="menu_icon_about" class="menu_icon_about menu_icon_generic">
-                <span id="menu_icon_about_text" class="menu_icon_about_text menu_icon_generic_text">ABOUT</span>
+        <div class="container">
+            <div class="row justify-content-center navbar">
+                <div class="col-3 navbar-item navbar-item-1">ABOUT</div>
+                <div class="col-3 navbar-item navbar-item-2">PROJECTS</div>
+                <div class="col-3 navbar-item navbar-item-3">RESUME</div>
+                <div class="col-3 navbar-item navbar-item-4">PLANS</div>
             </div>
-            <div id="menu_icon_projects" class="menu_icon_projects menu_icon_generic">
-                <span id="menu_icon_projects_text" class="menu_icon_projects_text menu_icon_generic_text">PROJECTS</span>
+            <div class="row justify-content-center name">
+                <div class="col-12 name-text">MARIO DEL REAL</div>
             </div>
-            <div id="menu_icon_plans" class="menu_icon_plans menu_icon_generic">
-                <span id="menu_icon_plans_text" class="menu_icon_plans_text menu_icon_generic_text">PLANS</span>
-            </div>
-            <div id="menu_icon_contact" class="menu_icon_contact menu_icon_generic">
-                <span id="menu_icon_contact_text" class="menu_icon_contact_text menu_icon_generic_text">CONTACT</span>
-            </div>
-        </div>
-        
-        
-        
-        <div id="main_info" class="main_info fade-in-full-time">
-            <div id="main_info_container" class="main_info_container">
-                <div id="main_info_header" class="main_info_header">
-                    <span id="main_info_header_text" class="main_info_header_text">MARIO DEL REAL</span>
-                </div>
-                <div id="main_info_content" class="main_info_content">
-                    <span id="main_info_content_text" class="main_info_content_text">CURRENTLY A STUDENT AT CARTHAGE COLLEGE MAJORING IN COMPUTER SCIENCE AND MINORING IN MATH. INTERESTED IN SOFTWARE ENGINEERING, WEB DEVELOPMENT, EMBEDDED SYSTEMS PROGRAMMING, AND TINKERING WITH HARDWARE. RESUME CAN BE FOUND <a href="./assets/files/Mario-A-Del-Real-Resume.pdf">HERE</a>.</span>
-                </div>
-            </div>
-        </div>
-        
-        
-        
-        <div id="about_info" class="about_info generic_info fade-in-half-time">
-            <div id="about_info_header" class="about_info_header info_header">
-                <span id="about_info_header_close" class="about_info_header_close info_header_close">&#x2715</span>
-            </div>
-            <div id="about_info_title" class="about_info_title info_title">
-                <span id="about_info_title_text" class="about_info_title_text info_title_text">ABOUT</span>
-            </div>
-            <div id="about_info_body" class="about_info_body info_body">
-                <span id="about_info_body_text" class="about_info_body_text info_body_text"></span>
-            </div>
-        </div>
-        
-        
-        
-        <div id="projects_info" class="projects_info generic_info fade-in-half-time">
-            <div id="projects_info_header" class="projects_info_header info_header">
-                <span id="projects_info_header_close" class="projects_info_header_close info_header_close">&#x2715</span>
-            </div>
-            <div id="projects_info_title" class="projects_info_title info_title">
-                <span id="projects_info_title_text" class="projects_info_title_text info_title_text">PROJECTS</span>
-            </div>
-            <div id="projects_info_body" class="projects_info_body info_body">
-                <span id="projects_info_body_text" class="projects_info_body_text info_body_text"></span>
-            </div>
-        </div>
-        
-        
-        
-        <div id="plans_info" class="plans_info generic_info fade-in-half-time">
-            <div id="plans_info_header" class="plans_info_header info_header">
-                <span id="plans_info_header_close" class="plans_info_header_close info_header_close">&#x2715</span>
-            </div>
-            <div id="plans_info_title" class="plans_info_title info_title">
-                <span id="plans_info_title_text" class="plans_info_title_text info_title_text">PLANS</span>
-            </div>
-            <div id="plans_info_body" class="plans_info_body info_body">
-                <span id="plans_info_body_text" class="plans_info_body_text info_body_text"></span>
-            </div>
-        </div>
-        
-        
-        
-        <div id="contact_info" class="contact_info generic_info fade-in-half-time">
-            <div id="contact_info_header" class="contact_info_header info_header">
-                <span id="contact_info_header_close" class="contact_info_header_close info_header_close">&#x2715</span>
-            </div>
-            <div id="contact_info_title" class="contact_info_title info_title">
-                <span id="contact_info_title_text" class="contact_info_title_text info_title_text">CONTACT</span>
-            </div>
-            <div id="contact_info_body" class="contact_info_body info_body">
-                <span id="contact_info_body_text" class="contact_info_body_text info_body_text"></span>
+            <div class="row justify-content-center info">
+                <span class="col-8 info-text">CURRENTLY A STUDENT AT CARTHAGE COLLEGE MAJORING IN COMPUTER SCIENCE AND MINORING IN MATH. INTERESTED IN SOFTWARE ENGINEERING, WEB DEVELOPMENT, EMBEDDED SYSTEMS PROGRAMMING, AND TINKERING WITH HARDWARE. RESUME CAN BE FOUND <a class="resume-link" href="./Mario-A-Del-Real-Resume.pdf">HERE</a></span>
             </div>
         </div>
     </body>
 </html>
+
+<!--<a href="./Mario-A-Del-Real-Resume.pdf" download="./Mario-A-Del-Real-Resume.pdf">HERE</a>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--  <title>Bootstrap Example</title>-->
+<!--  <meta charset="utf-8">-->
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<div class="container-fluid">-->
+<!--  <h1>Hello World!</h1>-->
+<!--  <p>Resize the browser window to see the effect.</p>-->
+<!--  <p>The columns will automatically stack on top of each other when the screen is less than 768px wide.</p>-->
+<!--  <div class="row">-->
+<!--    <div class="col-sm-offset-4 col-sm-1" style="background-color:lavender;">.col-sm-4</div>-->
+<!--    <div class="col-sm-2" style="background-color:lavenderblush;">.col-sm-4</div>-->
+<!--    <div class="col-sm-1" style="background-color:lavender;">.col-sm-4</div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--</body>-->
+<!--</html>-->

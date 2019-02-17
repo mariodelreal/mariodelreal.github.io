@@ -1,251 +1,73 @@
-html{
-    /* height: 100%; */
-}
 body{
-    /* height: 100%; */
-    margin-left: 20px;
-    margin-right: 20px;
-    background: url(../img/snowpeaks.jpg) no-repeat center transparent;
+    background-color: gray;
+    background: url(./snowpeaks.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
-a{
-    color: gray;
-    font-family: 'Source Sans Pro';
-    letter-spacing: 0.2rem;
-    font-weight: 100;
-    font-size: 16px;
-}
-
-.background_image{
-    
-}
-
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.fade-in-full-time{
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;
-  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:1.5s;
-  -moz-animation-duration:1.5s;
-  animation-duration:1.5s;
-}
-
-.fade-in-half-time{
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;
-  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:0.5s;
-  -moz-animation-duration:0.5s;
-  animation-duration:0.5s;
-}
-
-
-
-
-
-
-
-
-
-
-.main_info{
-    position: relative;
-    display: block;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    position: relative;
-    width: 90%;
-    max-width: 900px;
-    min-width: 360px;
-    margin: auto;
-    top: 10%;
-    height: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.main_info_container{
-    
-}
-.main_info_header{
-    /*height: 50px;*/
+.navbar {
+    margin-top: 50px;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    /*display: none;*/
-}
-.main_info_header_text{
-    line-height: 50px;
-    color: white;
-    font-size: 34px;
-    font-family: 'Source Sans Pro', Courier New;
-    letter-spacing: 0.2rem;
-    font-weight: 200;
-}
-.main_info_content{
-    position: relative;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
-    /*display: none;*/
-}
-.main_info_content_text{
-    position: relative;
-    display: block;
-    color: white;
-    font-family: 'Source Sans Pro';
-    letter-spacing: 0.2rem;
-    font-weight: 100;
-    line-height: 32px;
-}
-
-
-
-
-
-
-
-
-
-
-.menu_icon_bar{
-    position: relative;
-    margin: auto;
-    height: 50px;
-    top: 10%;
-    min-width: 360px;
-    max-width: 480px;
-    width: 50%;
     margin-bottom: 20px;
 }
-.menu_icon_generic{
-    text-align: center;
-    border: solid white 1px;
-    margin: -1px;
-    float: left;
-    width: 25%;
-    cursor: pointer;
-}
-.menu_icon_generic_text{
-    font-size: 14px;
-    line-height: 50px;
-    font-family: 'Source Sans Pro';
-    letter-spacing: 0.1rem;
+.navbar-item{
+    font-family: "Source Sans Pro";
     color: white;
+    line-height: 40px;
+    height: 40px;
+    font-size: 16px;
+    /*letter-spacing: 0.1rem;*/
+    font-weight: 100;
 }
-.menu_icon_about{
-    /*top left, top right, bottom right, bottom left*/
-    border-radius: 15px 0px 0px 15px;
+.navbar-item-1{
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    border-radius: 15px 0px 0px 15px; /*first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner*/
 }
-.menu_icon_about_text{
-    
+.navbar-item-2{
+    border-right: solid white 1px;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
 }
-.menu_icon_projects{
-    /*top left, top right, bottom right, bottom left*/
-    border-radius: 0px 0px 0px 0px;
+.navbar-item-3{
+    border-right: solid white 1px;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
 }
-.menu_icon_projects_text{
-    
-}
-.menu_icon_plans{
-    /*top left, top right, bottom right, bottom left*/
-    border-radius: 0px 0px 0px 0px;
-}
-.menu_icon_plans_text{
-    
-}
-.menu_icon_contact{
-    /*top left, top right, bottom right, bottom left*/
+.navbar-item-4{
+    border-right: solid white 1px;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
     border-radius: 0px 15px 15px 0px;
 }
-.menu_icon_contact_text{
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-.generic_info{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    /*padding: 1px;*/
-    border: solid white 1px;
-    border-radius: 5px;
-    display: none;
-    width: 50%;
-    min-width: 360px;
-    height: 90%;
-    background: rgba(0,0,0,0.4);
-}
-.about_info{
-    height: 90%;
-}
-.projects_info{
-    height: 90%;
-}
-.plans_info{
-    height: 90%;
-}
-.contact_info{
-    height: 30%;
-    min-height: 180px;
-}
-.info_header{
-    width: 100%;
-    text-align: right;
-}
-.info_header_close{
-    font-size: 20px;
-    cursor: pointer;
-    margin-right: 5px;
-    font-weight: 100;
-    color: white;
-    font-family: 'Source Sans Pro';
-}
-.info_title{
-    width: 100%;
+.name{
     text-align: center;
-}
-.info_title_text{
-    font-size: 28px;
     color: white;
+    border-top: solid white 1px;
+    padding-top: 20px;
     font-family: 'Source Sans Pro';
-    letter-spacing: 0.2rem;
 }
-.info_body{
+.name-text{
+    font-size: 34px;
+    letter-spacing: 0.25rem;
+    font-weight: 700;
     
 }
-.info_body_text{
-    
+.info{
+    text-align: center;
+    color: white;
+    border-bottom: solid white 1px;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro';
+}
+.info-text{
+    font-size: 20px;
+    letter-spacing: 0.25rem;
+    font-weight: 100;
+}
+.resume-link{
+    color: gray;
 }
