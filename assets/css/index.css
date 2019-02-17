@@ -1,3 +1,25 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="navbar-item"] {
+        font-family: "Source Sans Pro";
+        color: white;
+        line-height: 40px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 100;
+    }
+    [class*="name-text"] {
+        font-size: 28px;
+        letter-spacing: 0.25rem;
+        font-weight: 100;
+    }
+    [class*="info-text"] {
+        font-size: 20px;
+        letter-spacing: 0.25rem;
+        font-weight: 100;
+    }
+}
+
 body{
     background-color: gray;
     background: url(/assets/img/snowpeaks.jpg) no-repeat center center fixed;
@@ -6,6 +28,7 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
 .navbar {
     margin-top: 50px;
     text-align: center;
@@ -16,8 +39,7 @@ body{
     color: white;
     line-height: 40px;
     height: 40px;
-    font-size: 12px;
-    /*letter-spacing: 0.1rem;*/
+    font-size: 20px;
     font-weight: 100;
 }
 .navbar-item-1{
@@ -43,6 +65,7 @@ body{
     border-bottom: solid white 1px;
     border-radius: 0px 15px 15px 0px;
 }
+
 .name{
     text-align: center;
     color: white;
@@ -64,7 +87,7 @@ body{
     font-family: 'Source Sans Pro';
 }
 .info-text{
-    font-size: 20px;
+    font-size: 26px;
     letter-spacing: 0.25rem;
     font-weight: 100;
 }
