@@ -79,7 +79,7 @@ body{
     /* For mobile phones: */
     [class*="navbar-item"] {
         font-family: "Source Sans Pro";
-        color: red;
+        color: white;
         line-height: 40px;
         height: 40px;
         font-size: 12px;
