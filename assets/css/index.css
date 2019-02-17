@@ -9,12 +9,12 @@
         font-weight: 100;
     }
     [class*="name-text"] {
-        font-size: 28px;
+        font-size: 24px;
         letter-spacing: 0.25rem;
         font-weight: 100;
     }
     [class*="info-text"] {
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 0.25rem;
         font-weight: 100;
     }
@@ -39,7 +39,7 @@ body{
     color: white;
     line-height: 40px;
     height: 40px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 100;
 }
 .navbar-item-1{
@@ -74,7 +74,7 @@ body{
     font-family: 'Source Sans Pro';
 }
 .name-text{
-    font-size: 34px;
+    font-size: 32px;
     letter-spacing: 0.25rem;
     font-weight: 700;
     
@@ -87,7 +87,7 @@ body{
     font-family: 'Source Sans Pro';
 }
 .info-text{
-    font-size: 26px;
+    font-size: 22px;
     letter-spacing: 0.25rem;
     font-weight: 100;
 }
