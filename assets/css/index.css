@@ -1,24 +1,4 @@
-@media (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="navbar-item"] {
-        font-family: "Source Sans Pro";
-        color: red;
-        line-height: 40px;
-        height: 40px;
-        font-size: 12px;
-        font-weight: 100;
-    }
-    [class*="name-text"] {
-        font-size: 24px;
-        letter-spacing: 0.25rem;
-        font-weight: 100;
-    }
-    [class*="info-text"] {
-        font-size: 18px;
-        letter-spacing: 0.25rem;
-        font-weight: 100;
-    }
-}
+
 
 body{
     background-color: gray;
@@ -93,4 +73,26 @@ body{
 }
 .resume-link{
     color: gray;
+}
+
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="navbar-item"] {
+        font-family: "Source Sans Pro";
+        color: red;
+        line-height: 40px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 100;
+    }
+    [class*="name-text"] {
+        font-size: 24px;
+        letter-spacing: 0.25rem;
+        font-weight: 100;
+    }
+    [class*="info-text"] {
+        font-size: 18px;
+        letter-spacing: 0.25rem;
+        font-weight: 100;
+    }
 }
