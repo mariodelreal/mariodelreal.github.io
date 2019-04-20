@@ -79,6 +79,10 @@ body{
     color: black;
 }
 
+.image-link:hover{
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     /* For mobile phones: */
     [class*="navbar-item"] {
