@@ -61,7 +61,7 @@ body{
     font-family: 'Source Sans Pro';
 }
 .info-text{
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0.25rem;
     font-weight: 100;
 }
@@ -73,7 +73,8 @@ body{
     font-size: 24px;
 }
 .about-text{
-    font-size: 16px;
+    font-size: 18px;
+    letter-spacing: 0.10rem;
     font-family: 'Source Sans Pro';
     font-weight: 100;
     color: white;
