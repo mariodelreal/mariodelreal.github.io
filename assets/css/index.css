@@ -84,7 +84,15 @@ body{
 }
 
 .image-link-wrapper, .image-link-wrapper:visited{
-    color: black;
+    color: white;
+}
+
+.custom-modal-content{
+    background-color: #444444 !important;
+}
+
+.custom-modal-title{
+    color: white !important;
 }
 
 @media (max-width: 768px) {
