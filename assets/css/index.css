@@ -83,6 +83,10 @@ body{
     cursor: pointer;
 }
 
+.image-link-wrapper, .image-link-wrapper:visited{
+    color: black;
+}
+
 @media (max-width: 768px) {
     /* For mobile phones: */
     [class*="navbar-item"] {
