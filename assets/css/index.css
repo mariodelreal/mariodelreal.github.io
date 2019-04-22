@@ -7,19 +7,15 @@ body{
     background-size: cover;
 }
 
+/*NAVBAR*/
 .navbar {
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
 }
 .navbar-item{
-    font-family: "Source Sans Pro";
-    color: white;
     line-height: 40px;
     height: 40px;
-    font-size: 18px;
-    font-weight: 100;
-    letter-spacing: 0.15rem;
     cursor: pointer;
 }
 .navbar-item-1{
@@ -41,39 +37,44 @@ body{
     border-radius: 0px 15px 15px 0px;
 }
 
-.name{
+/*MAIN*/
+.main-text-container{
     text-align: center;
-    color: white;
-    border-top: solid white 1px;
-    padding-top: 20px;
-    font-family: 'Source Sans Pro';
+    border-bottom: solid white 1px;
+    padding-bottom: 20px;
 }
-.name-text{
+
+/*TEXT*/
+.title-text{
+    color: white;
+    font-family: 'Source Sans Pro';
     font-size: 28px;
     letter-spacing: 0.15rem;
     font-weight: 700;
-    
 }
-.info{
-    text-align: center;
+.body-text{
     color: white;
-    border-bottom: solid white 1px;
-    padding-bottom: 20px;
     font-family: 'Source Sans Pro';
-}
-.info-text{
     font-size: 18px;
     letter-spacing: 0.15rem;
     font-weight: 100;
 }
-.inline-link{
-    color: #b3d7ff;
-}
 
+/*ICONS*/
 .contact-list{
     font-size: 24px;
 }
+.image-link:hover{
+    cursor: pointer;
+}
+.image-link-wrapper, .image-link-wrapper:visited{
+    color: white;
+}
 
+/*MISC*/
+.inline-link{
+    color: #b3d7ff;
+}
 .about-portrait-image{
     display: block;
     margin: auto;
@@ -82,57 +83,30 @@ body{
     padding-bottom: 15px;
 }
 
-.about-text{
-    font-size: 18px;
-    letter-spacing: 0.10rem;
-    font-family: 'Source Sans Pro';
-    font-weight: 100;
-    color: white;
-}
-
-.image-link:hover{
-    cursor: pointer;
-}
-
-.image-link-wrapper, .image-link-wrapper:visited{
-    color: white;
-}
-
+/*OVERRIDDEN BOOTSTRAP*/
 .custom-modal-content{
     background-color: #444444 !important;
 }
-
 .custom-modal-title{
     color: white !important;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.15rem !important;
 }
 
+/*MOBILE*/
 @media (max-width: 768px) {
     /* For mobile phones: */
-    [class*="navbar-item"] {
-        font-family: "Source Sans Pro";
+    [class*="title-text"] {
         color: white;
-        line-height: 40px;
-        height: 40px;
-        font-size: 14px;
-        font-weight: 100;
-        letter-spacing: 0.10rem;
-    }
-    [class*="name-text"] {
+        font-family: 'Source Sans Pro';
         font-size: 28px;
         letter-spacing: 0.10rem;
-        font-weight: 100;
+        font-weight: 700;
     }
-    [class*="info-text"] {
+    [class*="body-text"] {
+        color: white;
+        font-family: 'Source Sans Pro';
         font-size: 14px;
         letter-spacing: 0.10rem;
         font-weight: 100;
-    }
-    [class*="about-text"] {
-        font-size: 14px;
-        letter-spacing: 0.05;
-        font-family: 'Source Sans Pro';
-        font-weight: 100;
-        color: white;
     }
 }
