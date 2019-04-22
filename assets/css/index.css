@@ -77,6 +77,8 @@ body{
     display: block;
     margin: auto;
     width: 35%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .about-text{
