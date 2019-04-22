@@ -72,6 +72,13 @@ body{
 .contact-list{
     font-size: 24px;
 }
+
+.about-portrait-image{
+    display: block;
+    margin: auto;
+    width: 35%;
+}
+
 .about-text{
     font-size: 18px;
     letter-spacing: 0.10rem;
