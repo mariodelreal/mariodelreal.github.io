@@ -19,7 +19,7 @@ body{
     height: 40px;
     font-size: 18px;
     font-weight: 100;
-    letter-spacing: 0.20rem;
+    letter-spacing: 0.15rem;
     cursor: pointer;
 }
 .navbar-item-1{
@@ -50,7 +50,7 @@ body{
 }
 .name-text{
     font-size: 28px;
-    letter-spacing: 0.20rem;
+    letter-spacing: 0.15rem;
     font-weight: 700;
     
 }
@@ -63,7 +63,7 @@ body{
 }
 .info-text{
     font-size: 18px;
-    letter-spacing: 0.20rem;
+    letter-spacing: 0.15rem;
     font-weight: 100;
 }
 .inline-link{
@@ -104,7 +104,7 @@ body{
 
 .custom-modal-title{
     color: white !important;
-    letter-spacing: 0.20rem;
+    letter-spacing: 0.15rem;
 }
 
 @media (max-width: 768px) {
@@ -116,16 +116,16 @@ body{
         height: 40px;
         font-size: 14px;
         font-weight: 100;
-        letter-spacing: 0.20rem;
+        letter-spacing: 0.15rem;
     }
     [class*="name-text"] {
         font-size: 28px;
-        letter-spacing: 0.20rem;
+        letter-spacing: 0.15rem;
         font-weight: 100;
     }
     [class*="info-text"] {
         font-size: 14px;
-        letter-spacing: 0.20rem;
+        letter-spacing: 0.15rem;
         font-weight: 100;
     }
     [class*="about-text"] {
