@@ -116,16 +116,16 @@ body{
         height: 40px;
         font-size: 14px;
         font-weight: 100;
-        letter-spacing: 0.15rem;
+        letter-spacing: 0.10rem;
     }
     [class*="name-text"] {
         font-size: 28px;
-        letter-spacing: 0.15rem;
+        letter-spacing: 0.10rem;
         font-weight: 100;
     }
     [class*="info-text"] {
         font-size: 14px;
-        letter-spacing: 0.15rem;
+        letter-spacing: 0.10rem;
         font-weight: 100;
     }
     [class*="about-text"] {
