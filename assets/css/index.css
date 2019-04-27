@@ -11,7 +11,6 @@ body{
 .navbar {
     margin-top: 20px;
     text-align: center;
-    margin-bottom: 20px;
 }
 .navbar-item{
     line-height: 40px;
@@ -60,6 +59,7 @@ body{
     letter-spacing: 0.15rem;
     font-weight: 100;
 }
+/*Maybe add a lowercase-body-text*/
 
 /*ICONS*/
 .contact-list{
